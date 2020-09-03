@@ -74,3 +74,6 @@ For more information, see the
 
 # web: bundle exec puma -C config/puma.rb
 `removed in favor of unicorn`
+
+## Removed in favor nginx
+`web: bundle exec unicorn -p $PORT -c ./config/unicorn.rb`
